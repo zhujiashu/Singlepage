@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function onAdd(){
+//这里是要判断的值，根据实际情况修改
+
+        var endrate=jQuery("#endrate").val();
+
+//这里是正则表达式在js里的判断用法
+
+        if(/^\d+(\.\d{1,2})?$/.test(endrate)){
+
+//如果输入正确做什么处理，这里根据实际情况可修改
+
+            frmmain.submit();
+        }else{
+            alert("分数框请输入精度为两位小数以内的正数！");
+            return;
+        }
+
+    }
+
+</script>
+</body>
+</html>
