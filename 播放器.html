@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link href="../jquerymobile/jquerymobile.css" rel="stylesheet">
+    <!--<link href="https://cdn.bootcss.com/jquery-mobile/1.4.5/jquery.mobile.css" rel="stylesheet">-->
+    <style>
+        /*.qq {*/
+        /*text-align: center;*/
+        /*}*/
+
+        /*.btn {*/
+        /*text-align: center;*/
+        /*font-size: 15px;*/
+        /*line-height: 20px;*/
+        /*}*/
+        .header {
+            width: 100%;
+            height: 40px;
+            text-align: center;
+        }
+        .font-white {
+            color: white;
+        }
+        .footer{
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            line-height: 45px;
+        }
+        .footer >div>div>a{
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+<div data-role="page">
+    <!--    <div class="content qq">
+            <img src="1.png" alt=""/>
+        </div>
+        <form method="post" action="">
+            <input type="text" placeholder="账号："/>
+            <input type="text" placeholder="密码："/>
+        </form>
+    <div class="ui-body"><a href="" data-role="button">登录</a></div>
+    <p class="btn">注册新的qq号</p>-->
+    <div data-role='header' class="header"  data-theme="b">
+        <a href="">返回</a>
+        <h4 class="font-white">播放列表</h4>
+        <a href="">设置</a>
+    </div>
+    <div data-role='content'>
+        <ul data-role="listview" class="bo-ul">
+            <li>
+                <a href="#">
+                    <img src="img/1.png" alt=""/>
+                    <h4>在希望的原野上</h4>
+                    <span>彭丽媛</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/2.png" alt=""/>
+                    <h4>甜蜜蜜</h4>
+                    <span>邓丽君</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/3.png" alt=""/>
+                    <h4>在那桃花盛开的地方</h4>
+                    <span>蒋大为</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/4.png" alt=""/>
+                    <h4>在希望的原野上</h4>
+                    <span>刘媛媛</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/5.png" alt=""/>
+                    <h4>小背篓</h4>
+                    <span>宋祖英</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div data-role="footer" data-theme="b" class="footer ui-footer-fixed">
+        <div class="ui-grid-b">
+            <div class="ui-block-a">
+                <a href="" data-role="button">我的音乐</a>
+            </div>
+            <div class="ui-block-b">
+                <a href="" data-role="button">在线曲库</a>
+            </div>
+            <div class="ui-block-c">
+                <a href="" data-role="button">下载管理</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../jquery/jquery-1.11.3.js"></script>
+<script src="https://cdn.bootcss.com/jquery-mobile/1.4.4/jquery.mobile.min.js"></script>
+</body>
+</html>
